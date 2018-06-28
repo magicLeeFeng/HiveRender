@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Render">
+      <UniqueIdentifier>{9f841e17-281f-4b0b-86cc-586cc0e4351f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Preset">
+      <UniqueIdentifier>{f71389f1-11a7-40fe-a1f5-4836c9a1c03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{cf6c8e2d-53d5-4d2b-bcef-baa67635ba2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{41f74ccb-8c68-464b-aaee-c7e995585ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{876f73bf-0938-45a4-b9c0-9975f5dc7ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Preset\Object">
+      <UniqueIdentifier>{eb2b2da4-4906-4658-8d70-9cff8be9f56e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Render\ARCamera.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\ARMaterial.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\ARMesh.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\ARMeshShape.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\ARNormal.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\ARScene.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\Preset\EmptyMaterial.cpp">
+      <Filter>Render\Preset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\Preset\PolygonPlane.cpp">
+      <Filter>Render\Preset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Director.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\ManagerMaterial.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Math\ARRay.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Math\ARRayDifferential.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Math\ARVector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Math\ARBBox.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Math\ARMatrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Math\ARPoint.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Math\Translate.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\CameraManager.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\Camera.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\Preset\PolygonBox.cpp">
+      <Filter>Render\Preset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Tools\ARFile.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\ARData.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\TextureCacheManager.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\ARTextrue2D.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Base\ARImage.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\Preset\PolygonObject.cpp">
+      <Filter>Render\Preset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Render\Preset\Object\ARWaveObject.cpp">
+      <Filter>Render\Preset\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Render\ARCamera.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\ARMaterial.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\ARMesh.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\ARMeshShape.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\ARNormal.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\AROpenGL.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\ARRenderDefine.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\ARScene.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\Preset\PolygonPlane.h">
+      <Filter>Render\Preset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\Preset\EmptyMaterial.h">
+      <Filter>Render\Preset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\ManagerMaterial.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Director.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Math\ARRay.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Math\ARRayDifferential.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Math\ARVector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Math\ARBBox.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Math\ARMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Math\ARPoint.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\HiveRender.h" />
+    <ClInclude Include="..\..\..\Math\Translate.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\CameraManager.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\Camera.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\Preset\PolygonBox.h">
+      <Filter>Render\Preset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Tools\ARFile.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\ARData.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\TextureCacheManager.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\ARTextrue2D.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Base\ARImage.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Tools\StringTools.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\Preset\PolygonObject.h">
+      <Filter>Render\Preset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Math\ARMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Render\Preset\Object\ARWaveObject.h">
+      <Filter>Render\Preset\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
